@@ -15,6 +15,5 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-valid_numbers = ["2438894546", "(718)891-1313", "234 435 9978", "(800)4261134"]
-valid_numbers.match(/^[1-9]\d{2}\s\d{3}\s\d{4}/)
+!!phone.match(/^[1-9]\d{2}\s\d{3}\s\d{4}/)
 end
