@@ -1,7 +1,6 @@
 def starts_with_a_vowel?(word)
   string = ("afoot Excellent incredible Absolute unreal Inconceivable octopus")
     string.grep(/\b[aeiouAEIOU]/)
-  end
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
