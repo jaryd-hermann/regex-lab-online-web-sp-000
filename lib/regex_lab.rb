@@ -1,7 +1,6 @@
 def starts_with_a_vowel?(word)
   string = ("afoot Excellent incredible Absolute unreal Inconceivable octopus")
-  string.each do |word|
-    word.match(/\b[aeiouAEIOU]/)
+    string.grep(/\b[aeiouAEIOU]/)
   end
 end
 
